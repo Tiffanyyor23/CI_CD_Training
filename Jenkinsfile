@@ -7,7 +7,9 @@ pipeline {
             }
         }
         stage('Unit Test') {
-            sh "python3 ./test_calculatorController.py"
+            steps {
+                sh "python3 ./test_calculatorController.py"
+            }
         }
     }
 }
