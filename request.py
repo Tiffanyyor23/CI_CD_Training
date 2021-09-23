@@ -16,7 +16,7 @@ headers = {
 
 data = {
     "roomId": "Y2lzY29zcGFyazovL3VybjpURUFNOnVzLXdlc3QtMl9yL1JPT00vNjc1ODBmODAtMGExOC0xMWVjLTkxYzktMDUyMjBmN2JiOGFh",
-    "text":"Jenkins in the house"
+    "text":"Your test run was successful"
 }
 
 response = requests.post(url=base_url+messages_url, headers=headers, data=json.dumps(data),verify=False)
